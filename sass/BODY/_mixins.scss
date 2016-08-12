@@ -1,0 +1,16 @@
+@mixin border-radius($radius) {
+border-radius: $radius;
+}
+
+@mixin sexy-font($size, $weight) {
+  font: {
+    size: $size;
+    weight: $weight;
+    
+  }
+}
+
+@mixin display($type) {
+display:$type;
+}
+

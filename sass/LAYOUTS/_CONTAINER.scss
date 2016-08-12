@@ -1,0 +1,7 @@
+#CONTAINER  {
+                width:900px;
+                @include border-radius(12px);
+		        margin:120px auto;
+		        overflow:hidden;
+		        height:420px;
+           }

@@ -1,0 +1,36 @@
+$break-small: 320px;
+$break-medium:760px;
+$break-large: 900px;
+
+body{
+  
+  @media screen and (max-width: $break-small) {
+    
+     float:left;
+    }
+  @media screen and (min-width: $break-medium) {
+      float:none;
+     }
+  @media screen and (min-width: $break-large) {
+      
+      float:none;
+      
+  }
+}
+
+#CONTAINER {
+        @media screen and (max-width: $break-small) {
+		     margin:auto;
+             width:200px;
+			 height:200px;
+    
+            }
+        @media screen and (min-width: $break-medium) {
+              width:500px;
+            }
+        @media screen and (min-width: $break-large) {
+              width:900px;
+            }
+           
+}
+

@@ -1,0 +1,27 @@
+.blocks {
+		    @include border-radius(10px);
+            width:120px;
+		    margin:12px 24px 12px 24px;
+		    border:1px solid #A9A9A9;
+		    padding:10px;
+			height:60px;
+			float:left; 
+            @include display(inline);
+    }
+					
+					
+		   .blocks  {
+
+                        h3  {
+                               color:$Blocks-color;
+                               margin:5px 40px ;
+                               @include sexy-font(1.5em,normal);
+                                
+					        }
+
+                        p   {
+                                color:$Blocks-color;
+                                margin:5px 25px ;
+                                @include sexy-font(none,normal);
+                            }
+				    }

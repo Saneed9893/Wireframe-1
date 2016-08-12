@@ -1,0 +1,53 @@
+#SECTION{
+                    margin:auto;           
+                    overflow:hidden;
+                    padding:10px;
+                    color:$Section-color;
+                    height:100px;
+                    background-color:white; 
+        }
+				 
+            #SECTION{
+			
+			            img {
+                                float:left;
+                                height:150px;
+                                width:150px;
+                                margin:-10px 20px;
+                                @include display(block);
+                                @include border-radius(75px);
+                                top:250px;
+                                position:absolute;
+                                border:5px solid white;
+                            }
+							
+
+                        h2  {
+  
+                                margin:120px 0px 150px 200px;
+                                @include display(inline);
+                                color:#333333;
+                                @include sexy-font(30px,none);
+  
+                            }
+
+                        p   {
+                                @include display(inline);
+                                margin:2px ;
+                                overflow:hidden;
+                                @include sexy-font(21px,none);
+    
+                            }
+							
+                        h3  {
+                                @include display(block);
+                                margin:1px 240px 0px 190px ;
+                                padding:10px;
+                                color:#00BFFF;
+                                @include sexy-font(20px,bold);
+                                
+                            }
+							
+							
+							
+				    }			
